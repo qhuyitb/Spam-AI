@@ -97,6 +97,20 @@ python train.py
 python train.py --skip-bert
 ```
 
+**Frontend demo** (React + Vite):
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend mac dinh chay tai `http://localhost:5173`.
+
+Neu can doi URL backend cho frontend, tao file `frontend/.env`:
+```env
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
+
 ## Output
 
 Sau khi train xong, toàn bộ kết quả lưu trong `models/`:
